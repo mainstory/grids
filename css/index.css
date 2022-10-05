@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular,500,600");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+body {
+  background-color: #333;
+  font-family: "Poppins";
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.test {
+  overflow-x: hidden;
+}
+.test__blocks {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.test__block {
+  overflow: hidden;
+}
+.test__flex-02 {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.test__img {
+  background-color: yellow;
+}
+.test__flex-03 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 140px;
+}
+.test__flex-01 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+}
+.test__flex-04 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+}
+
+.img-01 {
+  width: 130px;
+  height: 160px;
+  margin: 0px 0px 0px 50px;
+}
+
+.img-02 {
+  width: 160px;
+  height: 230px;
+}
+
+.img-03 {
+  width: 570px;
+  height: 320px;
+}
+
+.img-04 {
+  width: 80px;
+  height: 100px;
+  margin: 30px 0px 0px 0px;
+}
+
+.img-05 {
+  width: 170px;
+  height: 100px;
+}
+
+.img-06 {
+  width: 170px;
+  height: 100px;
+  position: relative;
+  left: -142px;
+}
+
+.img-07 {
+  width: 160px;
+  height: 230px;
+  position: relative;
+  right: -107px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
